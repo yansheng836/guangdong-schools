@@ -1,0 +1,34 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+This is a structured Markdown data repository — not a code project. It catalogs all schools in Guangdong Province, China across five education levels: 幼儿园 (kindergarten), 小学 (primary), 初中 (middle), 高中 (high school), 大学 (university). There is no build system, no tests, and no runtime code.
+
+## Repository Structure
+
+School data files live directly under `<教育阶段>/` as flat files — no city subdirectories. Each education level directory has its own `README.md` serving as an index/navigation page for that level.
+
+Covered regions: all 21 prefecture-level cities in Guangdong (广州市, 深圳市, 珠海市, 汕头市, 佛山市, 韶关市, 河源市, 梅州市, 惠州市, 汕尾市, 东莞市, 中山市, 江门市, 阳江市, 湛江市, 茂名市, 肇庆市, 清远市, 潮州市, 揭阳市, 云浮市).
+
+## File Naming Convention
+
+School files: `{城市}-{区县}-{学校名}.md` — e.g. `广州市-白云区-黄边小学.md`
+
+## Creating a New School Entry
+
+1. Use `TEMPLATE.md` as the starting point
+2. Place the file under the correct `<阶段>/<城市>/` directory
+3. Only include the relevant section for that school's level (幼儿园适用 / 小学适用 / 初中适用 / 高中适用 / 大学适用) — remove the other level-specific sections
+4. Fill all required fields (学校名称, 所在城市, 所在区域, 学校地址, 学校性质, 学校简介)
+5. Add the school to the parent directory's `README.md` index
+6. Update the progress table in the root `README.md`
+
+## Key Conventions
+
+- All content is in Chinese (Simplified)
+- School properties use fixed values: 公办/民办/其他 for 学校性质; 省一级/市一级/区一级 for school ratings
+- Each school file must include a 数据来源 section citing where the information came from
+- Each school file ends with a 最后更新时间 timestamp
+- License: CC BY-NC-SA 4.0
