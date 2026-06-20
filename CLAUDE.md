@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a structured Markdown data repository — not a code project. It catalogs all schools in Guangdong Province, China across five education levels: 幼儿园 (kindergarten), 小学 (primary), 初中 (middle), 高中 (high school), 大学 (university). There is no build system, no tests, and no runtime code.
+This is a structured Markdown data repository — not a code project. It catalogs all schools in Guangdong Province, China across multiple education levels: 幼儿园 (kindergarten), 小学 (primary), 初中 (middle), 初中-初职 (middle vocational), 高中 (high school), 高中-高职 (vocational/technical school), 大学 (university/undergraduate), 大学-大专 (college/vocational college), 党校 (party school). There is no build system, no tests, and no runtime code.
 
 ## Repository Structure
 
