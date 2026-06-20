@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>广东省学校数据库</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="广东省学校信息数据库，覆盖幼儿园到大学各教育阶段">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/theme-simple.css">
+  <style>
+    :root {
+      --theme-color: #1E88E5;
+      --sidebar-width: 280px;
+      --sidebar-nav-link-color--active: #1E88E5;
+      --sidebar-nav-link-border-color--active: #1E88E5;
+    }
+    .sidebar-nav li a {
+      font-size: 14px;
+    }
+    .markdown-section h1 {
+      font-size: 28px;
+      border-bottom: 2px solid #1E88E5;
+      padding-bottom: 10px;
+    }
+    .markdown-section h2 {
+      font-size: 22px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 8px;
+    }
+    .markdown-section table {
+      display: table;
+      width: 100%;
+    }
+    .markdown-section table th {
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">正在加载...</div>
+  <script>
+    window.$docsify = {
+      name: '广东省学校数据库',
+      repo: 'https://github.com/yansheng836/guangdong-schools',
+      loadSidebar: true,
+      coverpage: false,
+      onlyCover: false,
+      auto2top: true,
+      maxLevel: 3,
+      subMaxLevel: 2,
+      search: {
+        placeholder: '搜索学校...',
+        noData: '没有找到结果',
+        depth: 3,
+        paths: 'auto'
+      },
+      copyCode: {
+        buttonText: '复制',
+        successText: '已复制'
+      },
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章',
+        crossChapter: true
+      },
+      formatUpdated: '{YYYY}-{MM}-{DD}'
+    }
+  </script>
+  <!-- Docsify core -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <!-- Syntax highlighting -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+</body>
+</html>
