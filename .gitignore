@@ -16,3 +16,4 @@ node_modules/
 # Misc
 *.log
 .playwright-mcp/
+.worktrees/
